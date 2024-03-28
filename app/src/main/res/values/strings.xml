@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sticky_Notes</string>
+    <string name="life_is_too_fast_don_t_forget_anything_n_just_note_it">Life is too Fast don\'t forget anything\n just Note it!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_Notes_fragment">Create Notes Fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+</resources>

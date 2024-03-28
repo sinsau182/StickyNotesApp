@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#707070"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp">
+
+        <View
+            android:id="@+id/viewPriority"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_margin="10dp"
+            android:background="@drawable/red_dot" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/notesTittle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bold"
+                android:maxLines="1"
+                android:layout_marginEnd="22dp"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/notesSubtittle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#D8D8D8"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp"
+                android:fontFamily="@font/bold"
+                android:text="iuhahsfop;aijhsf;oiahnf;oliajhnfoihjnaoifchjneaoifjhncveroihnacfveroijacfvoierjancfoierjncfoierjhnfcoirejcfirejcfoierjhncvijhnociojanfcijenrcfmierocfjhneroijhnfewroikghnirelofjclsak"/>
+
+            <TextView
+                android:id="@+id/notesDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:maxLines="1"
+                android:fontFamily="@font/bold"
+                android:text="1 October 2023" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
